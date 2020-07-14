@@ -1,7 +1,7 @@
 const isCollection = require('iterall').isCollection;
 const forEach = require('iterall').forEach;
 const isPlainObject = require('lodash.isplainobject');
-const uniq = require('lodash/uniq');
+const uniq = require('lodash.uniq');
 
 class DeepIterall {
   constructor(content, options = {
