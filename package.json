@@ -1,8 +1,12 @@
 {
   "name": "deep-iterall",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Itarate any Object, Array, Object-like and Array-like element deeply",
   "main": "index.js",
+  "license": "MIT",
+  "author": "Fatih Dogru <ftdogru@yahoo.com> (https://github.com/wethil)",
+  "repository": "github:wethil/deep-iterall",
+  "bugs": "https://github.com/wethil/deep-iterall/issues",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d dist"
@@ -13,8 +17,6 @@
     "nested",
     "collection"
   ],
-  "author": "Fatih Dogru",
-  "license": "ISC",
   "dependencies": {
     "iterall": "^1.3.0",
     "lodash.isplainobject": "^4.0.6",
@@ -22,6 +24,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "braces": ">=2.3.1"
   }
 }
