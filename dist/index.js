@@ -9,7 +9,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var isCollection = require('iterall').isCollection;
 var forEach = require('iterall').forEach;
 var isPlainObject = require('lodash.isplainobject');
-var uniq = require('lodash/uniq');
+var uniq = require('lodash.uniq');
 
 var DeepIterall = function () {
   function DeepIterall(content) {
