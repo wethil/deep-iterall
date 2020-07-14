@@ -1,6 +1,6 @@
 {
   "name": "deep-iterall",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Itarate any Object, Array, Object-like and Array-like element deeply",
   "main": "index.js",
   "license": "MIT",

@@ -135,7 +135,7 @@ Add new content to existing content. (this won't delete the previous content)
 ##### addMiddleware(middleware)  `middleware: Array of middlewares or Middleware`
 Add one ore more middleware function to manage returnet elemetns.
 ```js
-    deeplyIteratedCollection.addMiddleware(lodash.uppuerCase)
+    deeplyIteratedCollection.addMiddleware(lodash.upperCase)
     /*
     [ 'UNIVERSITY',
 	  'CITY',
